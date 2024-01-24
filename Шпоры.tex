@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{alltt}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\setlength{\parindent}{0.75cm}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.png}
+\usepackage[left=1mm,right=1mm,top=1mm,bottom=1mm]{geometry}
+\author{Глотов Алексей}
+\begin{document}
+\newpage
+\begin{flushleft}
+Радиус кривизны $\rho=\frac{(1+{y^{'}}^2)^\frac{3}{2}}{|y^{''}|}$, $\rho=\frac{v^2}{a_{n}}$ \break
+$\mu=\frac{m_{1}m_{2}}{m_{1}+m_{2}}$ - приведённая масса \break
+$m\frac{d\vec{v}}{dt}=\frac{dm}{dt} \vec{u}+\vec{F_{vn}}$ - ур-ие Мещерского \break
+Без вн.сил $m\frac{{dv}}{dt}=-u\frac{dm}{dt}$\; или \; $m\frac{dv}{u}=-\frac{dm}{m}$ - ур-ие Циолковского\break
+Мех.подобие $U(\alpha{x})=\alpha^nU(x)$   
+$x_{2}=\alpha{x_{1}}, t_{2}=\beta{t_{1}}$ => $\alpha^{n-2}\beta^2=1$ \break
+Теорема Кёнига: $K=K_{CM}+K_{inCM}=\sum\frac{m_{i}\vec{v_{i}}}{2}+\frac{Mv_{CM}^2}{2}$ \break
+Импульс в СО"ЦМ"(2 тела) $p_{inCM}=\frac{m_{1}m_{2}}{m_{1}+m_{2}}(\vec{v_{1}}-\vec{v_{2}})$ \break
+Максимальный угол рассеяния: $\sin\alpha_{max}=\frac{v_{2inCM}}{v_{CM}} =\frac{m}{M}$ \break
+$E_{gr}$-пороговая энергия реакции, $E^{'}$-кинетическая энергия продуктов \break
+$E_{gr}=E^{'}+|Q|$ =>$\frac{p^2}{2m}=\frac{p^2}{2M}+|Q|$=>$|Q|=\frac{p^{2}(M-m)}{2mM}, \frac{p^2}{2m}=E=|Q|\frac{M}{M-m}$ \break
+Момент импульса $\vec{L}=[\vec{r},\vec{p}]=m[\vec{r},\vec{v}]$
+\break
+Секторальная скорость $\delta=\frac{\vec{L}}{2m}$ \break
+$\dot{\vec{L}}=[\vec{r},\vec{F}]=\vec{M}$ \break
+Гравитация; движение по эллипсу 
+$\vec{v_{r}}=\dot{\vec{r}}, \vec{v_{\phi}}=r\vec{\phi}$ $L=mrv_{\phi}=const$ \break
+$E=-G\frac{mM}{r}+\frac{L^2}{2mr^2}+\frac{m\dot{r^2}}{2}$ \break
+Полная энергия тела движущегося по эллипсу: $E_{0}=-G\frac{mM}{2a}$ \break
+Релетивизм. Преобразование Лоренца $\gamma=\frac{1}{\sqrt{1-\beta^2}}$ \break
+$x^{'}=\gamma(x-vt)\;\;\;\;\; x=\gamma(x^{'}+vt^{'})$\break
+$t^{'}=\gamma(t-x\frac{u}{c^2}) \;\;\;\;\; t=\gamma(t^{'}+x^{'}\frac{v}{c^2})$ \break
+$v_{x}^{'}=\frac{v_{x}-v}{1-\frac{vv_{x}}{c^2}}$
+$v_{y}^{'}=\frac{v_{y}\gamma}{1-\frac{vv_{x}}{c^2}}$
+$v_{z}^{'}=\frac{v_{z}\gamma}{1-\frac{vv_{x}}{c^2}}$\break
+$W_{0}=mc^2$-энергия покоя релятивистской частицы \break
+$W=\gamma{mc^2}$-полная энергия релятивистской частицы\break
+$W^2-p^2c^2=inv=m^2c^4$\break
+$T=mc^2(\gamma-1)$-кинетическая энергия частицы\break
+$\vec{p}=\gamma{m\vec{v}}$-импульс релятивистской частицы \break
+$E^{'}=\gamma{vp_{x}} \;\;\;\;\; p_{x}^{'}=\gamma{p_{x}-E\frac{v}{c^2}}$\break
+Момент инерции относительно оси: $J_{z}=\sum(mu_{i}r_{i})=\omega\sum(m_{i}r^{2}_{i})$ \break
+Для сплошных тел: $J=\sum{m_{i}(x^{2}_{i}+y^{2}_{i})})=\int{r^2\mathrm{d}x}$ \break
+Кинетическая энергия вращения: $\frac{1}{2}J\omega$ \break
+Теорема Гюйгенса-Штейнера: $J=J_{c}+ma^2$ \break
+Центральный момент инерции (отн. точки): $J_{x}+J_{y}+J_{z}=2\sum{m_{i}r^{2}_{i}}$ \break
+Общее движение тела: $\vec{u}(\vec{r})=\vec{u_{A}}+[\vec{\omega}, \vec{r}\vec{r_{A}}]$ \break
+Относительно мгновенной оси вращения: $\vec{u}(\vec{r})=[\vec{\omega}, \vec{r}\vec{r_{A}}]$ \break
+Мгновенная ось вращения - ось перпендикулярная плоскости движения, точка пересечения перпендикуляров к векторам скоростей,проведенных из оснований векторов \break
+Уравнение моментов относительно оси, движущейся параллельно ц.м.: $\frac{d\vec{L_{A}}}{dt}=\vec{M_{A}}$ \break
+Общий случай: $\frac{d\vec{l_{A}}}{dt}=\frac{d\vec{L_{0}}}{dt}-[\vec{r_{A}}, \frac{d\vec{p}}{dt}]-[\frac{d\vec{r_{A}}}{dt},\vec{p}]=\vec{M_{A}}-[\frac{d\vec{r_{A}}}{dt}, \vec{p}]$ \break
+Или: $J_{A}\frac{d\vec{\omega}}{dt}=\vec{M_{A}}$ - частный случай паралл. движ. СО и ц.м. \break
+В гироскопическом приближении: $\vec{L}=J_{||}\vec{\omega_{||}}$  \break
+Движение под действием постоянной силы: $\frac{d\vec{L}}{dt}=\vec{M}$ \break
+Вращение вектора L: $\frac{d\vec{L}}{dt}=[\vec{\Omega}, \vec{L}]$ \break
+Вынужденная прецессия: $[\vec{\Omega}, \vec{L}]=\vec{M}]$, $|\vec{L}|=J_{||}\omega=const$, $d\vec{L}=\vec{M}dt$ \break
+Сила, приложенная к оси: $\vec{M}=[\vec{a}, \vec{F}]\Rightarrow \vec{\Omega}=\frac{a}{J_{||}\omega}\vec{F}$ \break
+Гармонические колебания \break
+$\ddot{x}+\omega^{2}_{0}x=0$, $A=\sqrt{x^{2}_{0}+(\frac{u_{0}}{\omega_{0}})^2}$, $tg\phi_{0}=-\frac{u_{0}}{\omega_{0}x_{0}}$ \break
+Энергия колебаний: $E=\frac{m\dot{x}}{2}+\frac{m\omega^{2}_{0}x^2}{2}=\frac{1}{2}m\omega^{2}_{0}A^2$ \break
+Физический маятник: $J_{A}\ddot{\alpha}+mgasin\alpha=0$, $J_{A}=J_{c}+ma^2$ \break
+Центр качания - такая точка, подвесив физ.маятник за которую, период качания не изменится \break
+$l_{\text{пр}}=a+\frac{J_{c}}{ma}$ \break
+По теореме Гюйгенса: $a+a^{'}=l_{\text{пр}}$ \break
+Вязкое трение: $m\ddot{x}+\mu{\dot{x}}+kx=0$ или $\ddot{x}+2\gamma{\dot{x}}+\omega^{2}_{0}x=0$\break
+Решение: $x=Ae^{-\gamma{t}}cos(\omega{t}+\phi_{0})$, $\omega=\sqrt{\omega^{2}_{0}-\gamma^2}$ \break
+$\gamma$ - декремент затухания, $\tau=\frac{1}{\gamma}$ - характерное время затухания \break
+$\theta=\log{\frac{A_{n+1}}{A_{n}}}=\gamma{T}$ - логарифмический декремент затухания \break
+Периодические толчки, условие возбуждения: $\Delta{E_{\text{внеш}}}>\Delta{E_{\text{потерь}}}=2\gamma{TE}$ \break
+Параметрическая раскачка (изменение длины нити): \break
+$\Delta{K}=\Delta(\frac{L^2}{2J})=K\frac{\Delta{J}}{J}$, $\Delta{J}=m\Delta(l^2)=2ml\Delta{l}$ \break
+Приращение энергии: $\frac{\Delta{E}}{E}=2\frac{|\Delta{J}|}{J}=\lambda$, $\lambda$ - инкремент затухания, $E_{n}=E^{\lambda{n}}_{0}$ \break
+Синусоидальная вынуждающая сила: $\ddot{x}+2\gamma\dot{x}+\omega^{2}_{0}=f_{0}cos(\Omega{t})$ \break
+Общее решение: $x(t)=x_{\text{своб}}(t)+x_{\text{вын}}(t)$, если t велико: $x(t)=x_{\text{вын}}(t)=Acos(\Omega{t}+\phi)$\break
+$A=\frac{f_{0}}{\sqrt{(\Omega^2-\omega^{2}_{0})^2+(2\gamma\Omega)^2}}$, $tg\phi(\Omega)=\frac{2\gamma\Omega}{\omega^{2}_{0}-\Omega^2}$ \break
+Сложение скоростей: $\vec{u_{\text{абс}}}=\vec{u_{\text{отн}}}+\vec{u_{0}}+[\vec{\omega}, \vec{r}]$ \break
+Сложение ускорение (дифф. скоростей): $\vec{a_{\text{абс}}}=\vec{a_{\text{отн}}}+\vec{a_{0}}+2[\vec{\omega}, \vec{u_{\text{отн}}}]+[\vec{\omega}, [\vec{\omega}, \vec{r}]]$ \break
+$\vec{a_{\text{абс}}}=\vec{a_{\text{отн}}}+\vec{a_{0}}+2[\vec{\omega}, \vec{u_{\text{отн}}}]-\omega^2\vec{r}=\vec{a_{\text{абс}}}=\vec{a_{\text{отн}}}+\vec{a_{0}}+\vec{a_{\text{кор}}}+\vec{a_{ц}}$ \break
+Закон Гука: $\varepsilon_{x}=\frac{\Delta{l}}{l}=\frac{\sigma_{x}}{E}$, E - модуль Юнга \break
+$\varepsilon_{\perp}=\frac{\Delta{d}}{d}=-\mu\varepsilon_{x}=\mu\frac{\sigma_{x}}{E}$, $\mu$ - коэффициент Пуассона \break
+Обобщенный з-н Гука: $\varepsilon_{x}=\frac{\sigma_{x}}{E}-\mu\frac{\sigma_{y}}{E}-\mu\frac{\sigma_{z}}{E}$ \break
+$\varepsilon_{y}=-\mu\frac{\sigma_{x}}{E}+\frac{\sigma_{y}}{E}-\mu\frac{\sigma_{z}}{E}$,\;\;\;$\varepsilon_{z}=-\mu\frac{\sigma_{x}}{E}-\mu\frac{\sigma_{y}}{E}+\frac{\sigma_{z}}{E}$ \break
+Всестороннее сжатие: $\sigma_{x}=\sigma_{y}=\sigma_{z}=-P$ \break
+Одноосное сжатие: $\sigma_{x}=-P, \varepsilon_{y}=\varepsilon_{z}=0$ \break
+$\tau=\frac{F}{S}$ - касательное напряжение \break
+$\tau=G\gamma$, G - модуль сдвига, $\gamma$ - угол сдвига, $G=\frac{E}{2(1+\mu)}$ \break
+$s=\frac{E}{\rho}$ - скорость распространения продольных упругих волн в среде \break
+$k=\frac{2\pi}{\lambda}$ - волновое число \break
+$f=\mu{S}\frac{u_{1}-u_{2}}{h}$ - з-н Ньютона для вязкого трения \break
+$F=L\mu\frac{du}{dy}dx (L - длина периметра контура)$ - касательная сила вязкого трения \break
+$N=\frac{P_{1}-P_{2}}{\rho}Q$ - мощность сил по перемещению жидкости \break
+$N'=\frac{-4u_{0}\mu{l}}{\rho{R^2}}Q$ -мощность сил вязкого трения \break
+$K=\int^{R}_{0}\frac{\rho{u^2}}{2}Ludr$ условие применимости ф-лы Бернулли: $|A'|\ll{K}$ \break
+Течение ламинарно: $\frac{\rho{lu_{0}}}{\mu}\ll{Re}$
+\end{flushleft}
+\end{document}
